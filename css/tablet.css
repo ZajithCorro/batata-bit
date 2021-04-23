@@ -1,0 +1,25 @@
+.plans--container-slider {
+  justify-content: center;
+}
+
+.product--cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.main--tables-container {
+  display: flex;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.main--tables-container .main--commission-table {
+  display: block;
+}
+
+span.currency--table-next,
+span.commission--table-prev {
+  display: none;
+}
